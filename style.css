@@ -1,3 +1,10 @@
+:root {
+    --bgcolor: #045DE9;
+    --bgcolor1: #FDB813;
+
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -118,6 +125,11 @@ li {
 
 }
 
+.lineuptitle {
+    text-align: center;
+    background-color: ;
+}
+
 
 
 h1 {
@@ -137,18 +149,30 @@ button {
 
 }
 
-.slinecontainer {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.lineup {
+    height: 350px;
+    background-color: #0047AB;
+    
 }
 
-.lineup {
-    height: 300px;
+.lineuptitle {
+    display: block;
+    height: 70px;
     background-color: #0047AB;
+    font-size: 70px;
+    color: whitesmoke;
+    text-shadow: 0 0 0.8em rgb(255 255 255);
+    padding-top: 20px;
+    
+}
+
+
+.lineupcontainer {
+
+    height: 280px;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .first5 {
@@ -165,7 +189,56 @@ button {
 }
 
 .secondsec {
-    background-image: url(./images/);
+    
+    height: 700px;
+    width: 100%;
+
+}
+
+.samples {
+    height: 100px;
+    width: 100%;
+    display: block;
+    height: 70px;
+    font-size: 70px;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 0 0 0.8em rgb(255 255 255);
+    padding-top: 20px;
+    background: linear-gradient(
+        var(--bgcolor1) 50%,
+        var(--bgcolor)
+        );
+}
+
+.container2 {
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.leftpic {
+    height: 600px;
+    width: 50%;
+}
+
+.curryboi {
+    height: 100%;
+    width: 100%;
+}
+
+.klayboi {
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    background: rgb(19, 25, 41);
+    padding: 1.25em 0;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.5em;
 
 }
 
